@@ -1,8 +1,13 @@
+import Main from "./components/Main/Main"
+import Sidebar from "./components/Sidebar/Sidebar"
 
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Sidebar/>
+      <Main/>
+    </div>
   )
 }
 
